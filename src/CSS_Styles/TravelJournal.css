@@ -1,0 +1,110 @@
+.travel-journal-header {
+    padding: 2%;
+    box-shadow: 0px 1px 10px rgba(131, 124, 124, 0.5);
+    border-bottom: 1px solid rgba(110, 101, 101, 0.5)
+}
+.travel-journal-logo {
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    fill: blue;
+}
+
+.travel-journal-title-container {
+    display:flex;
+    justify-content:center;
+    gap:10px;
+    align-items:center;
+}
+.search-place-container {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 30px;
+}
+
+.search-place-input {
+    width: 40%;
+    font-family: Poppins;
+    font-weight: 100;
+    font-size: 11pt;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid rgba(52, 49, 49, 0.5);
+}
+
+.search-place-icon {
+    cursor:pointer;
+    position:relative;
+    right: 2.5%;
+}
+
+/* Travel Journal Body Style */
+.travel-journal-card-container {
+    cursor:pointer;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 20px) 6px; /* Adjust as needed */
+    background-size: 100px;
+    display:flex;
+    align-items:center;
+    gap: 20px;
+    padding: 40px;
+    transition: 0.2s ease-out;
+    box-shadow: 0px 1px 5px rgba(131, 124, 124, 0.5);
+    border-bottom: 1px solid rgba(110, 101, 101, 0.5)
+}
+
+.travel-journal-card-container:hover {
+    transition: 0.2s ease-in;
+    background-color: rgba(0, 164, 252, 0.1);
+}
+
+.location-country-container {
+    display:flex;
+    align-items:center;
+    gap: 10px;
+}
+
+.place-experience {
+    font-style: italic;
+    font-size: 11pt;
+}
+
+.place-description {
+    text-align:justify;
+    text-justify: inter-word;
+}
+
+.travel-date {
+    font-weight: bold;
+}
+.location-on-map-address {
+    text-decoration:underline;
+    color:gray;
+}
+.country {
+    letter-spacing: 3px;
+}
+.place-image {
+    width: 20%;
+    height: 20%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.place-rating-container{
+    display:flex;
+    align-items:center;
+    gap:5px;
+}
+.place-rating-icon {
+    margin-right: 5px;
+}
+
+.travel-journal-footer {
+    padding: 2%;
+    text-align:center;
+    box-shadow: 0px 1px 10px rgba(131, 124, 124, 0.5);
+    border-top: 1px solid rgba(110, 101, 101, 0.5)
+}
+
