@@ -4,10 +4,9 @@
     border-bottom: 1px solid rgba(110, 101, 101, 0.5)
 }
 .travel-journal-logo {
-    width: 80px;
-    height: 80px;
-    padding: 10px;
-    fill: blue;
+    width: 60px;
+    height: 60px;
+    padding: 10px;;
 }
 
 .travel-journal-title-container {

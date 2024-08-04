@@ -1,6 +1,6 @@
 import React from 'react';
 import '../CSS_Styles/TravelJournal.css';
-import TravelJournalLogo from '../assets/travel-journal-assets/travel-journal.svg';
+import TravelJournalLogo from '../assets/travel-journal-assets/travelmat.png';
 import { FaSearch } from 'react-icons/fa';
 
 const TravelJournalHeader = () => {
